@@ -1,0 +1,31 @@
+.text {
+    position: absolute;
+    top: -55px;
+    width: 280px;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #fff;
+    text-align: center;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #d8e2e2;
+    transition: all 0.3s ease;
+}
+
+.text.open {
+    transform: translateY(-30px);
+    opacity: 1;
+}
+
+.wrap-tooltip {
+    position: absolute;
+    width: 180px;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #fff;
+    text-align: center;
+    padding: 2px;
+    border-radius: 6px;
+    border: 1px solid #d8e2e2;
+    transition: all 0.3s ease;
+}
